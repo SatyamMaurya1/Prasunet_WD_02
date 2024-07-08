@@ -1,0 +1,60 @@
+#stopwatch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    width: 250px;
+  }
+  body{
+    display: flex;
+    flex-direction: column;
+    
+    background-image: url(https://png.pngtree.com/background/20230621/original/pngtree-stopwatch-in-3d-picture-image_3929283.jpg);
+    background-size: cover;
+  }
+  
+  #stopwatch button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(10, 110, 63);
+  }
+  
+  #stopwatch button:hover {
+    background-color: #083b24;
+
+  }
+  
+  #stopwatch #time {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+    background-color: #083b24;
+    padding: 5px 10px;
+    border-radius: 15px;
+  }
+  
+  #stopwatch #laps {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  #stopwatch #laps li {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: white;
+    background-color: #083b24;
+  }
